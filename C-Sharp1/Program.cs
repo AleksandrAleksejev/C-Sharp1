@@ -142,9 +142,10 @@ namespace C_Sharp1
             }
             */
             /*
+             * 4
             Console.WriteLine("Kui pikk sa oled?");
             int pikk = int.Parse(Console.ReadLine());
-            if (pikk <= 60 || pikk > 300)
+            if (pikk <= 60 || pikk > 250)
             {
                 Console.WriteLine("Viga");
             }
@@ -165,6 +166,7 @@ namespace C_Sharp1
             }
             */
             /*
+             * 5
             Console.WriteLine("Kui pikk sa oled?");
             Console.WriteLine("Mis on sinu sugu?");
             int pikk = int.Parse(Console.ReadLine());
@@ -173,7 +175,7 @@ namespace C_Sharp1
             {
 
             }
-            if (pikk <= 60 || pikk > 300)
+            if (pikk <= 60 || pikk > 230)
             {
                 Console.WriteLine("Viga");
             }
@@ -181,21 +183,19 @@ namespace C_Sharp1
             {
                 if (pikk > 80 && pikk < 150)
                 {
-                    Console.WriteLine("Luhike");
+                    Console.WriteLine("Luhike(Mees)");
                 }
                 else if (pikk > 150 && pikk < 165)
                 {
-                    Console.WriteLine("Keskmine");
+                    Console.WriteLine("Keskmine(Mees)");
                 }
-                else if (pikk > 165 && pikk < 230)
+                else if (pikk > 165 && pikk < 220)
                 {
-                    Console.WriteLine("Korge");
+                    Console.WriteLine("Korge(Mees)");
                 }
                 if (sugu == "Naine" && sugu == "NAINE") ;
                 {
-
-                }
-                if (pikk <= 60 || pikk > 300)
+            if (pikk <= 60 || pikk > 210)
                 {
                     Console.WriteLine("Viga");
                 }
@@ -203,29 +203,32 @@ namespace C_Sharp1
                 {
                     if (pikk > 80 && pikk < 130)
                     {
-                        Console.WriteLine("Luhike");
+                        Console.WriteLine("Luhike(Naine)");
                     }
                     else if (pikk > 130 && pikk < 160)
                     {
-                        Console.WriteLine("Keskmine");
+                        Console.WriteLine("Keskmine(Naine)");
                     }
                     else if (pikk > 160 && pikk < 190)
                     {
-                        Console.WriteLine("Korge");
+                        Console.WriteLine("Korge(Naine)");
                     }
-
-                }
-                }
+               
 
             */
+            /*
+             * 6
             int piim = 2;
             int saia = 1;
             int leib = 1;
+            */
 
 
 
 
-                    Console.ReadKey();
+
+
+            Console.ReadKey();
         }
     }    
 }
