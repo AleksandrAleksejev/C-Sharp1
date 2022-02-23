@@ -8,8 +8,8 @@ namespace C_Sharp1
 {
     class masiviid
     {
-        static void Main(string[] args)
-        {/*/
+        static void Main(string[] args);
+        /*/
             Random rnd = new Random();
             int[] arvud = new int[10];
             for (int i = 0; i < arvud.Length; i++)
@@ -41,77 +41,112 @@ namespace C_Sharp1
             Console.WriteLine(nimed[a-1]);
 
             */
-            /*
-            Random rnd = new Random();
-            int N = rnd.Next(1, 100);
-            int M = rnd.Next(1, 100);
-            Console.WriteLine($"N={N}");
-            Console.WriteLine($"M={M}");
+        /*
+        Random rnd = new Random();
+        int N = rnd.Next(1, 100);
+        int M = rnd.Next(1, 100);
+        Console.WriteLine($"N={N}");
+        Console.WriteLine($"M={M}");
 
-            if (N>M)
+        if (N>M)
+        {
+            int abi = N;
+            N = M;
+            N = abi;
+        }
+        int[] NM = new int[M-N+1];
+        for (int j = N; j < M+1; j++)
+        {
+            NM[j-N] = j;
+            Console.WriteLine(j*j);
+        }
+        */
+        /*
+        Console.WriteLine("Напишите 5 чисел: ");
+        int[] arvud0 = new int[5];
+        for (int i = 0; i < arvud0.Length; i++)
+        {
+            arvud0[i] = int.Parse(Console.ReadLine());
+        }
+        int summa = 0;
+        int korrutis = 1;
+        /*foreach (int arv in arvud0)
+        {
+            summa += arv;
+            korrutis *= arv;
+        }*/
+        /*
+        for (int i = 0; i < arvud0.Length; i++)
+        {
+            summa += arvud0[i];
+            korrutis *= arvud0[i];
+
+        }
+        Console.WriteLine($"Summa = {summa}");
+        Console.WriteLine($"Korrutis = {korrutis}");
+        Console.WriteLine($"Keskmine = {korrutis / arvud0.Length,4}");
+        */
+        /*
+
+
+
+        /*
+        //elevant
+        string a = "";
+        while (a.ToLower() != "слон")
+        {
+            Console.WriteLine("Купи слона!");
+            a = Console.ReadLine();
+        }
+        Console.WriteLine("Конец");
+        */
+
+        /*
+        //Math tabl
+        for (int i = 1; i <= 10; i++)
+        {
+            for (int j = 1; j <= 10; j++)
             {
-                int abi = N;
-                N = M;
-                N = abi;
+                Console.Write((i * j).ToString() + "\t");
             }
-            int[] NM = new int[M-N+1];
-            for (int j = N; j < M+1; j++)
+            Console.WriteLine();
+        }
+        */
+        //nurr nurr nurr 
+        /*public static class Math
+        {
+            internal static int Abs(int v)
             {
-                NM[j-N] = j;
-                Console.WriteLine(j*j);
+                throw new NotImplementedException();
             }
-            */
-            /*
-            Console.WriteLine("Напишите 5 чисел: ");
-            int[] arvud0 = new int[5];
-            for (int i = 0; i < arvud0.Length; i++)
+
+            internal static int Sqrt(int v)
             {
-                arvud0[i] = int.Parse(Console.ReadLine());
+                throw new NotImplementedException();
             }
-            int summa = 0;
-            int korrutis = 1;
-            /*foreach (int arv in arvud0)
+
+            internal static int Pow(int v1, int v2)
             {
-                summa += arv;
-                korrutis *= arv;
-            }*/
-            /*
-            for (int i = 0; i < arvud0.Length; i++)
+                throw new NotImplementedException();
+            }
+
+            internal static string Round(int v1, int v2)
             {
-                summa += arvud0[i];
-                korrutis *= arvud0[i];
+                throw new NotImplementedException();
+            }
+        }
+    }
+
+        
+
+namespace Homework
+    {
+        class Class1
+        {
+            static void Main(string[] args)
+            {
 
             }
-            Console.WriteLine($"Summa = {summa}");
-            Console.WriteLine($"Korrutis = {korrutis}");
-            Console.WriteLine($"Keskmine = {korrutis / arvud0.Length,4}");
-            */
-            /*
-           
-
-            
-            /*
-            //elevant
-            string a = "";
-            while (a.ToLower() != "слон")
-            {
-                Console.WriteLine("Купи слона!");
-                a = Console.ReadLine();
-            }
-            Console.WriteLine("Конец");
-            */
-            
-            /*
-            //Math tabl
-            for (int i = 1; i <= 10; i++)
-            {
-                for (int j = 1; j <= 10; j++)
-                {
-                    Console.Write((i * j).ToString() + "\t");
-                }
-                Console.WriteLine();
-            }
-            */
 
 
 
@@ -121,7 +156,9 @@ namespace C_Sharp1
 
 
 
-
+            funksioonid.Leidmine_Kesk(5);
+        */
+       
             Console.ReadLine();
         }
     }
